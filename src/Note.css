@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap");
+body{
+    background-color: palevioletred;
+}
+.Heading{
+    font-family: 'Homemade Apple', cursive;
+    color: aliceblue;
+    margin-top: 2rem;
+    animation: glow-blink .6s infinite alternate;
+}
+.cont{
+    display: flex;
+    height: 40vh;
+    align-items: center;
+    justify-content: center;
+    background-color: palevioletred;
+}
+.center-cartoon{
+    display: block;
+    margin: auto;
+    max-width: 80%;
+
+}
+
+.sticker{
+    max-width: 80%;
+    
+}
+.custom-input-group .form-control {
+    background-color: palevioletred; 
+    color: black;
+    border: 1px solid black;
+}
+
+.btn{
+  padding: 2%;  
+}
+
+.custom-input-group .form-control:focus,
+.custom-input-group .btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+@keyframes glow-blink {
+    0% {
+        text-shadow: 
+            0 0 5px rgba(255, 255, 255, 0.8),
+            0 0 10px rgba(255, 255, 255, 0.7),
+            0 0 15px rgba(255, 255, 255, 0.6),
+            0 0 20px rgba(0, 255, 255, 0.8),
+            0 0 30px rgba(0, 255, 255, 0.7),
+            0 0 40px rgba(0, 255, 255, 0.6);
+    }
+    50% {
+        text-shadow: 
+            0 0 5px rgba(255, 255, 255, 0.3),
+            0 0 10px rgba(255, 255, 255, 0.3),
+            0 0 15px rgba(255, 255, 255, 0.3),
+            0 0 20px rgba(0, 255, 255, 0.3),
+            0 0 30px rgba(0, 255, 255, 0.3),
+            0 0 40px rgba(0, 255, 255, 0.3);
+    }
+    100% {
+        text-shadow: 
+            0 0 5px rgba(255, 255, 255, 0.8),
+            0 0 10px rgba(255, 255, 255, 0.7),
+            0 0 15px rgba(255, 255, 255, 0.6),
+            0 0 20px rgba(0, 255, 255, 0.8),
+            0 0 30px rgba(0, 255, 255, 0.7),
+            0 0 40px rgba(0, 255, 255, 0.6);
+    }
+}
